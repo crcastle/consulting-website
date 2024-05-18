@@ -1,0 +1,9 @@
+- [ ] Choose a nicer typeface
+- [ ] Add more quotes (2 or 3 total?) and figure out how to show them in a clean way
+- [ ] Add text for Debugging service
+- [ ] Decide if there should be more detail for each service.
+- [ ] Figure out a company name to use
+- [ ] Get a domain for company name
+- [ ] Use company name in header and footer
+- [ ] Make responsive to different screen widths
+- [ ] Add contact form and connect to Contact /contact button

@@ -15,7 +15,7 @@
 
 .container {
   margin: 0 auto;
-  padding: 0 20px;
+  /* padding: 0 20px; */
   /* max-width: 960px; */
   width: 100%;
 }
@@ -25,7 +25,7 @@
 }
 
 header {
-  background-color: rgb(237, 226, 213);
+  background-color: rgb(224, 209, 191);
   border-bottom: 2px solid #000;
 }
 
@@ -35,11 +35,13 @@ header {
   flex-direction: row;
   height: 150px;
   justify-content: space-between;
-  padding: 0 20px;
+  /* padding: 0 20px; */
 }
 
 .logo {
-  margin-bottom: 20px;
+  margin-bottom: -6px;
+  margin-left: -5px;
+  width: 25%;
 }
 
 .contact-wrapper {
@@ -69,7 +71,6 @@ a {
 
 section {
   padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 header .container,
@@ -78,9 +79,10 @@ footer .container {
   max-width: 960px;
 }
 
-/* section:not(:last-of-type) .container {
+section:not(:last-of-type) .container {
   border-bottom: 3px solid rgb(251, 243, 234);
-} */
+  padding-bottom: 60px;
+}
 
 p {
   color: #777;
@@ -113,7 +115,7 @@ h2 {
 
 .services h2 {
   font-weight: 700;
-  margin: 0 auto;
+  margin-bottom: 40px;
 }
 
 .services-list {
@@ -125,7 +127,7 @@ h2 {
 .services-item {
   grid-gap: 25px;
   display: grid;
-  grid-template-columns: 100px 1fr;
+  grid-template-columns: 70px 1fr;
 }
 
 h3 {
