@@ -7,3 +7,4 @@
 - [ ] Use company name in header and footer
 - [ ] Make responsive to different screen widths
 - [ ] Add contact form and connect to Contact /contact button
+- [ ] Add favicon
