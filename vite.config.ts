@@ -8,5 +8,6 @@ export default defineConfig(() => {
         /* pass your config */
       }),
     ],
+    base: '/consulting-website'
   };
 });
