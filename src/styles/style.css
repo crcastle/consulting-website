@@ -13,11 +13,20 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.inactive {
+  display: none;
+  visibility: hidden;
+}
+
 .container {
   margin: 0 auto;
   /* padding: 0 20px; */
   /* max-width: 960px; */
   width: 100%;
+}
+
+.left {
+  text-align: left;
 }
 
 .center {
@@ -66,7 +75,10 @@ header {
 
 a {
   cursor: pointer;
-  text-decoration: none;
+}
+
+p a {
+  text-decoration: underline;
 }
 
 section {
@@ -75,7 +87,8 @@ section {
 
 header .container,
 section .container,
-footer .container {
+footer .container,
+div.contact-content {
   max-width: 960px;
 }
 
@@ -157,6 +170,95 @@ blockquote footer:before {
   content: "\2014 \00A0";
 }
 
+.grid-flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  margin: -30px 0 30px -30px;
+}
+
+.grid-flex-cell {
+  flex: 1 1;
+  padding: 30px 0 0 30px;
+}
+
+.contact-content h2 {
+  margin-bottom: 40px;
+  font-size: 3em;
+}
+
+.cf:after, .cf:before {
+  content: " ";
+  display:table
+}
+
+.cf:after {
+  clear:both
+}
+
+label {
+  cursor: pointer;
+  display: block;
+  font-size: .8em;
+  margin-bottom: 5px;
+  font-weight: 800;
+}
+
+input {
+  line-height: normal;
+}
+
+.form-input {
+  -webkit-appearance: none;
+  border: 1px solid #cdd3d5;
+  border-radius: 3px;
+  display: block;
+  padding: 10px;
+  width: 100%;
+  outline: 0;
+  margin-bottom: 15px;
+}
+
+.form-input:required:focus {
+  background-color: #fff9f2;
+  border: 1px solid #fec57c;
+}
+
+textarea {
+  min-height: 90px;
+  resize: none;
+  overflow: auto;
+}
+
+.button {
+  color: #fff;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #00b0eb;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  display: inline-block;
+  overflow: visible;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  text-transform: none;
+  transition-delay: 0;
+  transition-duration: .3s;
+  transition-property: background,border-color;
+  transition-timing-function: ease-in;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.button:hover {
+  background-color:#009ed3
+}
+
 footer {
   background-color: #f7f7f7;
   padding-top: 30px;
@@ -165,6 +267,10 @@ footer {
 
 .pull-left {
   float: left;
+}
+
+.pull-right {
+  float: right;
 }
 
 footer .copyright {

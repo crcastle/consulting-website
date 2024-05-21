@@ -15,12 +15,12 @@
           /></a>
         </div>
         <div class="contact-wrapper">
-          <a class="contact-btn" href="/contact">Contact</a>
+          <a id="contact-btn" class="contact-btn" >Contact</a>
         </div>
       </div>
     </header>
     <main>
-      <div class="main-content">
+      <div id="main-content" class="main-content">
         <section class="main">
           <div class="container">
             <p>Hi, my name is</p>
@@ -114,6 +114,41 @@
               </p>
               <footer>Paul Connors</footer>
             </blockquote>
+          </div>
+        </section>
+      </div>
+      <div id="contact-form" class="contact-content container inactive">
+        <section class="grid-flex-container">
+          <div class="grid-flex-cell">
+            <h2>Get in touch</h2>
+            <p>
+              Tell me what you're working on and how I might help. Email me at
+              <a href="mailto:chris@crc.io">chris@crc.io</a> or fill out the
+              form.
+            </p>
+          </div>
+          <div class="grid-flex-cell">
+            <form name="contact-form" class="contact-form cf left" method="POST" action="https://formspree.io/f/mleqkdnb">
+              <div class="form-element">
+                <label for="fieldName">Your Name* </label>
+                <input class="form-input" id="fieldName" name="name" type="text" required></input>
+              </div>
+              <div class="form-element">
+                <label for="fieldEmail">Your Email Address* </label>
+                <input class="form-input" id="fieldEmail" name="email" type="email" required></input>
+              </div>
+              <div class="form-element">
+                <label for="fieldCompany">Your Company* </label>
+                <input class="form-input" id="fieldCompany" name="company" type="text" required></input>
+              </div>
+              <div class="form-element">
+                <label for="fieldName">How can I help?* </label>
+                <textarea class="form-input" id="fieldMessage" name="message" type="textarea" required></textarea>
+              </div>
+              <div class="form-element pull-right">
+                <button class="button button-primary" type="submit">Send</button>
+              </div>
+            </form>
           </div>
         </section>
       </div>
