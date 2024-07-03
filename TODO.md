@@ -1,5 +1,13 @@
 - [ ] Choose a nicer typeface
-- [ ] Add more quotes (2 or 3 total?) and figure out how to show them in a clean way
+- [x] Add more quotes (2 or 3 total?) and figure out how to show them in a clean way
+- [ ] Add quote slider
+  - https://cheewebdevelopment.com/boilerplate-vanilla-javascript-content-slider/
+  - https://github.com/En-Jen/testimonial-slider
+  - https://codingartistweb.com/2022/06/testimonial-slider-using-javascript/
+  - https://jsfiddle.net/Hamzailyas434/gcwxf1pt/6/
+  - https://swiperjs.com
+  - https://glidejs.com
+  - style like this one: https://houseofgiants.com
 - [x] Add text for Debugging service
 - [ ] Add more text for API and Data Integration
 - [x] Decide if there should be more detail for each service.
@@ -9,3 +17,5 @@
 - [ ] Make responsive to different screen widths
 - [x] Add contact form and connect to Contact /contact button
 - [ ] Add favicon
+- [ ] Fix dark mode
+- [ ] Add fractional developer as work item
