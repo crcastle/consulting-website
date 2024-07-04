@@ -1,6 +1,5 @@
-- [ ] Choose a nicer typeface
 - [x] Add more quotes (2 or 3 total?) and figure out how to show them in a clean way
-- [ ] Add quote slider
+- [x] Add quote slider
   - https://cheewebdevelopment.com/boilerplate-vanilla-javascript-content-slider/
   - https://github.com/En-Jen/testimonial-slider
   - https://codingartistweb.com/2022/06/testimonial-slider-using-javascript/
@@ -8,14 +7,18 @@
   - https://swiperjs.com
   - https://glidejs.com
   - style like this one: https://houseofgiants.com
+  - [x] style quote slider
 - [x] Add text for Debugging service
-- [ ] Add more text for API and Data Integration
 - [x] Decide if there should be more detail for each service.
+- [x] Make responsive to different screen widths
+- [x] Add contact form and connect to Contact /contact button
+- [ ] Add more text for API and Data Integration
 - [ ] Figure out a company name to use
 - [ ] Get a domain for company name
 - [ ] Use company name in header and footer
-- [ ] Make responsive to different screen widths
-- [x] Add contact form and connect to Contact /contact button
+- [ ] Choose a nicer typeface
 - [ ] Add favicon
 - [ ] Fix dark mode
-- [ ] Add fractional developer as work item
+- [ ] Add section for ways I can work for you:
+  - Fractional (retainer for a certain number of hours per month or per week)
+  - Pre-defined project at hourly rate
