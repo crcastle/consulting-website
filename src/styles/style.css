@@ -130,7 +130,7 @@ div.contact-content {
   }
 }
 
-section:not(:last-of-type) .container {
+section:not(.featured-quotes) .container {
   border-bottom: 3px solid rgb(251, 243, 234);
   padding-bottom: 60px;
 }
@@ -159,22 +159,21 @@ h2 {
   font-size: 1.8em;
 }
 
-.services .container {
-  border-bottom: none !important;
-}
-
-.services h2 {
+.services h2,
+.engagements h2 {
   font-weight: 700;
   margin-bottom: 40px;
 }
 
-.services-list {
+.services-list,
+.engagements-list {
   display: grid;
   grid-gap: 1em 2em;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 
-.services-item {
+.services-item,
+.engagements-item {
   grid-gap: 25px;
   display: grid;
   grid-template-columns: 70px 1fr;
@@ -185,12 +184,14 @@ h3 {
 }
 
 @media (max-width: 568px) {
-  .services-item {
+  .services-item,
+  .engagements-item {
     grid-gap: 20px;
     grid-template-columns: 50px 1fr;
   }
 
-  .services-item p {
+  .services-item p,
+  .engagements-item p {
     font-size: 1em;
   }
 }
