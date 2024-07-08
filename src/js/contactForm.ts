@@ -1,19 +1,15 @@
-import 'the-new-css-reset/css/reset.css';
-
 const contactPath = '/consulting-website/contact';
 
 const contactBtn = document.querySelector<HTMLButtonElement>('#contact-btn');
-if (contactBtn) {
-  contactBtn.addEventListener('click', (e) => {
-    e.preventDefault();
-    if (window.location.pathname !== contactPath) {
-      showContactForm();
-      history.pushState({ url: contactPath }, '', contactPath)
-    }
+contactBtn?.addEventListener('click', (e) => {
+  e.preventDefault();
+  if (window.location.pathname !== contactPath) {
+    showContactForm();
+    history.pushState({ url: contactPath }, '', contactPath)
+  }
 
-    e.stopPropagation();
-  }, false);
-}
+  e.stopPropagation();
+}, false);
 
 window.addEventListener('popstate', (e) => {
   toggle(e.state);

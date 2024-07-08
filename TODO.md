@@ -12,13 +12,14 @@
 - [x] Decide if there should be more detail for each service.
 - [x] Make responsive to different screen widths
 - [x] Add contact form and connect to Contact /contact button
-- [ ] Add more text for API and Data Integration
-- [ ] Figure out a company name to use
-- [ ] Get a domain for company name
-- [ ] Use company name in header and footer
-- [ ] Choose a nicer typeface
-- [ ] Add favicon
-- [ ] Fix dark mode
+- [x] Stack items in Services section as single column instead of double column for mobile view
+- [x] Add more text for API and Data Integration
+- [ ] ~~Choose a nicer typeface~~
+- [x] Fix dark mode
 - [ ] Add section for ways I can work for you:
   - Fractional (retainer for a certain number of hours per month or per week)
   - Pre-defined project at hourly rate
+- [ ] Add favicon
+- [ ] Figure out a company name to use
+- [ ] Get a domain for company name
+- [ ] Use company name in header and footer
