@@ -8,5 +8,6 @@ import '../styles/style.css';
 // Keep copyright year up-to-date
 const copyEl = document.querySelector("#copyright");
 if (copyEl) {
-  copyEl.innerHTML = "© " + (new Date()).getFullYear() + " Christopher Castle";
+  const updatedFooterText = copyEl.innerHTML.replace("2004", (new Date()).getFullYear().toString());
+  copyEl.innerHTML = updatedFooterText;
 }
