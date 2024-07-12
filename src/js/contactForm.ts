@@ -1,4 +1,4 @@
-const contactPath = '/consulting-website/contact';
+const contactPath = '/contact';
 
 const contactBtn = document.querySelector<HTMLButtonElement>('#contact-btn');
 contactBtn?.addEventListener('click', (e) => {
